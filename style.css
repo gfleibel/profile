@@ -1,0 +1,96 @@
+body {
+  color: rgb(61, 60, 60);
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  text-align: center;
+  width: 80%;
+  box-shadow: 0px 0px 30px 1px #e8e7e7;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(2, 153, 2)
+}
+
+h3 {
+  font-size: 15px;
+  color: rgb(0, 60, 0);
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 15px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px;
+}
+
+.row-images{
+  display: flex;
+  box-shadow: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.column-images{
+  flex: 33%;
+  padding: 0;
+  box-shadow: 0 0 0 0;
+  margin: auto auto;
+}
+
+.company-logo{
+  width: 100px;
+  height: auto;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+}
+
+a {
+  color: rgb(0, 79, 0);
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: rgb(5, 190, 5);
+  transition: 0.15s;
+}
+
+a.btn-discover{
+  background-color: rgb(0, 79, 0);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-discover:hover{
+  background-color: rgb(5, 190, 5);
+  transition: 0.15s;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(179, 244, 179);
+}
